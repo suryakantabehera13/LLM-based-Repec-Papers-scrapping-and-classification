@@ -596,7 +596,7 @@ print("\n Fine-tuning complete. Saved as 'fine_tuned_model.pt'.")
 
 
 
-API_KEY = "AIzaSyCFqzuKWl99KX-ewf02-zjJtZrGhOoMnnk"
+API_KEY = "my api key"
 MODEL = "gemini-1.5-flash"  # Based on your working curl example
 ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={API_KEY}"
 HEADERS = {
